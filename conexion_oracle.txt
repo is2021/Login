@@ -1,4 +1,4 @@
-/*REemplazar en el settings.py para conectar a oracle*/
+/*REemplazar en el settings.py para conectar a la bd oracle*/
 
 DATABASES = {
     'default': {
