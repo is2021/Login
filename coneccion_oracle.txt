@@ -1,0 +1,12 @@
+/*REemplazar en el settings.py para conectar a oracle*/
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.oracle',
+        'NAME': 'xe',
+        'USER': 'GESTION',
+        'PASSWORD': 'GESTION',
+        'HOST': 'localhost',
+        'PORT': '1521',
+    }
+}
